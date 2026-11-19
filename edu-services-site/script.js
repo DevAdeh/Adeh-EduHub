@@ -1,7 +1,7 @@
 const CONFIG = {
   name: "Adeh EduHub",
   tagline: "Your school paperwork, handled.",
-  whatsapp: "09165924915",
+  whatsapp: "09159627267",
   services: [
     {
       id: "waec",
