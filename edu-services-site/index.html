@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adeh EduHub | WAEC, NECO and JAMB Services</title>
+  <meta name="description" content="WAEC and NECO result checkers, JAMB result and admission letter printing, acceptance fee payment and online verification. Order through WhatsApp.">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="#top">
+    <img src="logo.png" alt="Adeh EduHub logo" class="logo">
+    <span id="brandName">Adeh EduHub</span>
+  </a>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#ordering">Ordering</a>
+    <a href="#answers">Answers</a>
+  </nav>
+  <a class="btn btn-gold small" id="headerWa" target="_blank" rel="noopener">Message us</a>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <p class="eyebrow">WAEC &middot; NECO &middot; JAMB &middot; Admission</p>
+    <h1 id="tagline">Your school paperwork, handled.</h1>
+    <p class="lead">Result checkers, printouts and fee payments for students and parents, ordered right from your phone.</p>
+    <div class="hero-actions">
+      <a class="btn btn-gold" id="heroWa" target="_blank" rel="noopener">Message us on WhatsApp</a>
+      <a class="btn btn-outline" href="#services">Browse prices</a>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <h2>What we handle</h2>
+    <p class="section-sub">Pick one service or several. Prices are shown below, and we confirm everything before you pay.</p>
+    <div class="grid" id="serviceGrid"></div>
+  </section>
+
+  <section id="ordering" class="section">
+    <h2>Ordering in three taps</h2>
+    <ol class="steps">
+      <li><strong>Choose</strong><span>Select the services you want from the list above.</span></li>
+      <li><strong>Send</strong><span>Your choices appear in WhatsApp as a ready-made message.</span></li>
+      <li><strong>Confirm</strong><span>We reply to confirm the price and details, then get to work.</span></li>
+    </ol>
+  </section>
+
+  <section class="section">
+    <h2>What you can expect</h2>
+    <div class="grid small-grid">
+      <div class="note"><strong>Clear prices</strong><span>The cost is stated before any payment is made.</span></div>
+      <div class="note"><strong>Prompt replies</strong><span>Send a message and we get back to you quickly.</span></div>
+      <div class="note"><strong>Your details stay yours</strong><span>We ask only for what the service needs, and use it only for that.</span></div>
+    </div>
+  </section>
+
+  <section id="answers" class="section">
+    <h2>Quick answers</h2>
+    <details><summary>How do I place an order?</summary><p>Tap "Select" on each service you need, then press the button at the bottom of the screen. WhatsApp opens with your order already typed out.</p></details>
+    <details><summary>When is payment made?</summary><p>We first confirm the service and the price with you on WhatsApp. Payment details are shared in that chat.</p></details>
+    <details><summary>How soon will it be ready?</summary><p>Many requests are done the same day. Timing depends on the portal involved, for example JAMB, WAEC or your school.</p></details>
+    <details><summary>What information do I need to send?</summary><p>Only what your request requires, such as your exam number and year for a result checker.</p></details>
+  </section>
+
+  <section class="cta">
+    <h2>Need something done today?</h2>
+    <p>Tell us what you need on WhatsApp and we will take it from there.</p>
+    <a class="btn btn-gold" id="ctaWa" target="_blank" rel="noopener">Start a chat</a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p id="footName"></p>
+  <p>Orders are placed through WhatsApp. Nothing you tap on this page is stored by the website.</p>
+</footer>
+
+<a class="float-wa" id="floatWa" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+
+<div class="list-bar" id="listBar" hidden>
+  <span id="listCount">0 selected</span>
+  <a class="btn btn-gold small" id="listSend" target="_blank" rel="noopener">Send order on WhatsApp</a>
+  <button type="button" class="link-btn" id="listClear">Reset</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
